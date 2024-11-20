@@ -6,20 +6,20 @@ import java.util.Scanner;
 public class ReverseString
 {
 
-public void revString()
-{
-    String str="Ashwini";
-    int length=str.length();
-int j;
-    String reverse="";
-    for(j<length-1;j>=0;j--)
-    {
-reverse=reverse+str.charAt(j);
-    }
+//public void revString()
+//{
+//    String str="Ashwini";
+//    int length=str.length();
+//int j=0;
+//    String reverse="";
+//    for(j<length-1;j>=0;j--)
+//    {
+//reverse=reverse+str.charAt(j);
+//    }
 
 
 
-}
+
 
 
         public static void main (String [] args)
@@ -32,7 +32,7 @@ reverse=reverse+str.charAt(j);
             }
             System.out.println("Reverse string is:"+rev);
 
-            if(s==rev)
+            if(s.equalsIgnoreCase(rev))
             {
                 System.out.println(s+" is Palindrome");
             }
